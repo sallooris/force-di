@@ -22,6 +22,13 @@
         {
             "path": "force-app-3",
             "default": false
+        },
+        {
+            "path": "force-di",
+            "package": "testpackage1",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "namespace": "",
@@ -32,6 +39,7 @@
         "force-di@0.1.0-1": "04t1N000000Cr1fQAC",
         "force-di@0.1.0-2": "04t1N000000Cr1zQAC",
         "force-di@0.1.0-3": "04t1N000000Cr2dQAC",
-        "force-di@0.1.0-4": "04t1N000000Cr7oQAC"
+        "force-di@0.1.0-4": "04t1N000000Cr7oQAC",
+        "testpackage1": "0Ho7F000000KyqgSAC"
     }
 }
