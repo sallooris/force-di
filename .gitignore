@@ -1,9 +1,0 @@
-.DS_Store
-.sfdx
-.vscode
-.idea
-IlluminatedCloud
-/temp
-package-lock.json
-package.json
-/node_modules
