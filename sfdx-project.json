@@ -78,6 +78,13 @@
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false
+        },
+        {
+            "path": "force-di",
+            "package": "DX1101",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "namespace": "",
@@ -109,6 +116,7 @@
         "PP1": "0Ho2I000000CaRgSAK",
         "PP1@1.0.0.0": "04t2I000000cDAYQA2",
         "PP1@1.0.0.1": "04t2I000000cDAdQAM",
-        "DXPack1101": "0Ho0o000000blLZCAY"
+        "DXPack1101": "0Ho0o000000blLZCAY",
+        "DX1101": "0Ho0o000000blLeCAI"
     }
 }
