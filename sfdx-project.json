@@ -1,151 +1,134 @@
 {
-    "packageDirectories": [
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": true,
-            "package": "force-di"
-        },
-        {
-            "path": "force-di-trigger-demo",
-            "default": false
-        },
-        {
-            "path": "force-app-1",
-            "default": false
-        },
-        {
-            "path": "force-app-2",
-            "default": false
-        },
-        {
-            "path": "force-app-3",
-            "default": false
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "testpackage1"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "DX Pack1"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "DX Test Pack2"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "test0901"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "P1"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "P2"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "PP1"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "Test1242"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "year"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "Test_UP2"
-        },
-        {
-            "path": "force-di",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "package": "Test_Up3"
-        },
-        {
-            "path": "force-di",
-            "package": "Demo-Pack1",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false
-        }
-    ],
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "44.0",
-    "packageAliases": {
-        "force-di": "0Ho1N000000GmaTSAS",
-        "force-di@0.1.0-1": "04t1N000000Cr1fQAC",
-        "force-di@0.1.0-2": "04t1N000000Cr1zQAC",
-        "force-di@0.1.0-3": "04t1N000000Cr2dQAC",
-        "force-di@0.1.0-4": "04t1N000000Cr7oQAC",
-        "testpackage1": "0Ho7F000000KyqgSAC",
-        "DX Pack1": "0Ho7F000000Kyr0SAC",
-        "DX Pack1@1.0.0.0": "04t7F0000054gsiQAA",
-        "DX Test Pack2": "0Ho7F000000KyrASAS",
-        "DX Test Pack2@1.0.0.0": "04t7F0000054grVQAQ",
-        "DX Test Pack2@1.0.0.1": "04t7F0000054graQAA",
-        "test0901": "0Ho0o000000blLKCAY",
-        "test0901@1.0.0.0": "04t0o000000kWbSAAU",
-        "test0901@1.0.0.1": "04t0o000000kWbXAAU",
-        "P1": "0Ho0o000000blLPCAY",
-        "P1@1.0.0.0": "04t0o000000kXL2AAM",
-        "P1@1.0.0.1": "04t0o000000kXPFAA2",
-        "P2": "0Ho0o000000blLUCAY",
-        "P2@1.0.0.0": "04t0o000001UkokAAC",
-        "P2@1.0.0.1": "04t0o000001UlDbAAK",
-        "DX Pack1@08c7F000000PBCcQAO": null,
-        "DX Pack1@0.1.1.1": "04t7F0000054gssQAA",
-        "PP1": "0Ho2I000000CaRgSAK",
-        "PP1@1.0.0.0": "04t2I000000cDAYQA2",
-        "PP1@1.0.0.1": "04t2I000000cDAdQAM",
-        "Test1242": "0Ho7F000000KyrySAC",
-        "Test1242@1.0.0.0": "04t7F0000054h5dQAA",
-        "year": "0Ho7F000000Kys8SAC",
-        "year@1.0.0.0": "04t7F0000054h6MQAQ",
-        "year@1.0.0.1": "04t7F0000054h6qQAA",
-        "Test_UP2": "0Ho7F000000KyswSAC",
-        "Test_UP2@1.0.0.0": "04t7F0000054hEMQAY",
-        "Test_Up3": "0Ho7F000000Kyt1SAC",
-        "Test_Up3@1.0.0.0": "04t7F0000054hERQAY",
-        "Demo-Pack1": "0Ho7F000000Kyv2SAC"
-    }
+  "packageDirectories" : [ {
+    "path" : "force-app-2",
+    "default" : false
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "test0901"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "testpackage1"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "Demo-Pack1"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "P1"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "year"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "PP1"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : true,
+    "package" : "force-di"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "Test_Up3"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "DX Test Pack2"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "P2"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "DX Pack1"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "Test1242"
+  }, {
+    "path" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT",
+    "default" : false,
+    "package" : "Test_UP2"
+  }, {
+    "path" : "force-di-trigger-demo",
+    "default" : false
+  }, {
+    "path" : "force-app-3",
+    "default" : false
+  }, {
+    "path" : "force-app-1",
+    "default" : false
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "44.0",
+  "packageAliases" : {
+    "force-di" : "0Ho1N000000GmaTSAS",
+    "force-di@0.1.0-1" : "04t1N000000Cr1fQAC",
+    "force-di@0.1.0-2" : "04t1N000000Cr1zQAC",
+    "force-di@0.1.0-3" : "04t1N000000Cr2dQAC",
+    "force-di@0.1.0-4" : "04t1N000000Cr7oQAC",
+    "testpackage1" : "0Ho7F000000KyqgSAC",
+    "DX Pack1" : "0Ho7F000000Kyr0SAC",
+    "DX Pack1@1.0.0.0" : "04t7F0000054gsiQAA",
+    "DX Test Pack2" : "0Ho7F000000KyrASAS",
+    "DX Test Pack2@1.0.0.0" : "04t7F0000054grVQAQ",
+    "DX Test Pack2@1.0.0.1" : "04t7F0000054graQAA",
+    "test0901" : "0Ho0o000000blLKCAY",
+    "test0901@1.0.0.0" : "04t0o000000kWbSAAU",
+    "test0901@1.0.0.1" : "04t0o000000kWbXAAU",
+    "P1" : "0Ho0o000000blLPCAY",
+    "P1@1.0.0.0" : "04t0o000000kXL2AAM",
+    "P1@1.0.0.1" : "04t0o000000kXPFAA2",
+    "P2" : "0Ho0o000000blLUCAY",
+    "P2@1.0.0.0" : "04t0o000001UkokAAC",
+    "P2@1.0.0.1" : "04t0o000001UlDbAAK",
+    "DX Pack1@08c7F000000PBCcQAO" : null,
+    "DX Pack1@0.1.1.1" : "04t7F0000054gssQAA",
+    "PP1" : "0Ho2I000000CaRgSAK",
+    "PP1@1.0.0.0" : "04t2I000000cDAYQA2",
+    "PP1@1.0.0.1" : "04t2I000000cDAdQAM",
+    "Test1242" : "0Ho7F000000KyrySAC",
+    "Test1242@1.0.0.0" : "04t7F0000054h5dQAA",
+    "year" : "0Ho7F000000Kys8SAC",
+    "year@1.0.0.0" : "04t7F0000054h6MQAQ",
+    "year@1.0.0.1" : "04t7F0000054h6qQAA",
+    "Test_UP2" : "0Ho7F000000KyswSAC",
+    "Test_UP2@1.0.0.0" : "04t7F0000054hEMQAY",
+    "Test_Up3" : "0Ho7F000000Kyt1SAC",
+    "Test_Up3@1.0.0.0" : "04t7F0000054hERQAY",
+    "Demo-Pack1" : "0Ho7F000000Kyv2SAC",
+    "Demo-Pack1@1.0.0.0" : "04t7F0000054hWcQAI"
+  }
 }
