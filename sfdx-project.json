@@ -2,37 +2,13 @@
   "packageDirectories" : [ {
     "path" : "force-di",
     "default" : false,
-    "package" : "PP1",
-    "versionName" : "ver 0.1",
-    "versionNumber" : "0.1.0.NEXT"
-  }, {
-    "path" : "Module_Test",
-    "default" : true,
-    "package" : "Module_Test",
-    "versionName" : "Module_Test",
-    "versionNumber" : "1.0.0.0"
-  }, {
-    "path" : "force-app-3",
-    "default" : false
-  }, {
-    "path" : "force-di",
-    "default" : false,
-    "package" : "P1",
-    "versionName" : "ver 0.1",
-    "versionNumber" : "0.1.0.NEXT"
-  }, {
-    "path" : "force-app-2",
-    "default" : false
-  }, {
-    "path" : "force-di",
-    "default" : false,
-    "package" : "testpackage1",
+    "package" : "DX Pack1",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
   }, {
     "path" : "force-di",
     "default" : false,
-    "package" : "P2",
+    "package" : "DX Test Pack2",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
   }, {
@@ -42,7 +18,32 @@
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
   }, {
+    "path" : "force-di",
+    "default" : false,
+    "package" : "testpackage1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  }, {
     "path" : "force-app-1",
+    "default" : false
+  }, {
+    "path" : "force-di",
+    "default" : false,
+    "package" : "PP1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  }, {
+    "path" : "Module_Test_Dependency",
+    "default" : true,
+    "package" : "Module_Test_Dependency",
+    "versionName" : "Module_Test_Dependency",
+    "versionNumber" : "1.0.0.0",
+    "dependencies" : [ {
+      "package" : "Module_Test",
+      "versionNumber" : "1.0.0.0"
+    } ]
+  }, {
+    "path" : "force-app-3",
     "default" : false
   }, {
     "path" : "force-di-trigger-demo",
@@ -56,15 +57,15 @@
   }, {
     "path" : "force-di",
     "default" : false,
-    "package" : "DX Test Pack2",
+    "package" : "P1",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
   }, {
-    "path" : "force-di",
+    "path" : "Module_Test",
     "default" : false,
-    "package" : "year",
-    "versionName" : "ver 0.1",
-    "versionNumber" : "0.1.0.NEXT"
+    "package" : "Module_Test",
+    "versionName" : "Module_Test",
+    "versionNumber" : "1.0.0.0"
   }, {
     "path" : "force-di",
     "default" : false,
@@ -74,9 +75,18 @@
   }, {
     "path" : "force-di",
     "default" : false,
-    "package" : "DX Pack1",
+    "package" : "P2",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
+  }, {
+    "path" : "force-di",
+    "default" : false,
+    "package" : "year",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  }, {
+    "path" : "force-app-2",
+    "default" : false
   } ],
   "namespace" : "",
   "sfdcLoginUrl" : "https://login.salesforce.com",
@@ -113,6 +123,8 @@
     "year@1.0.0.0" : "04t7F0000054h6MQAQ",
     "year@1.0.0.1" : "04t7F0000054h6qQAA",
     "Module_Test" : "0Ho7F0000008OSeSAM",
-    "Module_Test@1.0.0.0" : "04t7F000005Z9CAQA0"
+    "Module_Test@1.0.0.0" : "04t7F000005Z9CAQA0",
+    "Module_Test_Dependency" : "0Ho7F0000008OSjSAM",
+    "Module_Test_Dependency@1.0.0.0" : "04t7F000005Z9CKQA0"
   }
 }
