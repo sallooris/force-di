@@ -2,7 +2,7 @@
   "packageDirectories" : [ {
     "path" : "force-di",
     "default" : false,
-    "package" : "DX Pack1",
+    "package" : "test0901",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
   }, {
@@ -14,62 +14,7 @@
   }, {
     "path" : "force-di",
     "default" : false,
-    "package" : "Test1242",
-    "versionName" : "ver 0.1",
-    "versionNumber" : "0.1.0.NEXT"
-  }, {
-    "path" : "force-di",
-    "default" : false,
     "package" : "testpackage1",
-    "versionName" : "ver 0.1",
-    "versionNumber" : "0.1.0.NEXT"
-  }, {
-    "path" : "force-app-1",
-    "default" : false
-  }, {
-    "path" : "force-di",
-    "default" : false,
-    "package" : "PP1",
-    "versionName" : "ver 0.1",
-    "versionNumber" : "0.1.0.NEXT"
-  }, {
-    "path" : "Module_Test_Dependency",
-    "default" : true,
-    "package" : "Module_Test_Dependency",
-    "versionName" : "Module_Test_Dependency",
-    "versionNumber" : "1.0.0.0",
-    "dependencies" : [ {
-      "package" : "Module_Test",
-      "versionNumber" : "1.0.0.0"
-    } ]
-  }, {
-    "path" : "force-app-3",
-    "default" : false
-  }, {
-    "path" : "force-di-trigger-demo",
-    "default" : false
-  }, {
-    "path" : "force-di",
-    "default" : false,
-    "package" : "test0901",
-    "versionName" : "ver 0.1",
-    "versionNumber" : "0.1.0.NEXT"
-  }, {
-    "path" : "force-di",
-    "default" : false,
-    "package" : "P1",
-    "versionName" : "ver 0.1",
-    "versionNumber" : "0.1.0.NEXT"
-  }, {
-    "path" : "Module_Test",
-    "default" : false,
-    "package" : "Module_Test",
-    "versionName" : "Module_Test",
-    "versionNumber" : "1.0.0.0"
-  }, {
-    "path" : "force-di",
-    "default" : false,
-    "package" : "force-di",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
   }, {
@@ -81,12 +26,77 @@
   }, {
     "path" : "force-di",
     "default" : false,
+    "package" : "PP1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  }, {
+    "path" : "force-di",
+    "default" : false,
     "package" : "year",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
   }, {
+    "path" : "Module_Test",
+    "default" : false,
+    "package" : "Module_Test",
+    "versionName" : "Module_Test",
+    "versionNumber" : "1.0.0.0"
+  }, {
+    "path" : "force-di",
+    "default" : false,
+    "package" : "DX Pack1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  }, {
+    "path" : "force-di",
+    "default" : false,
+    "package" : "P1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  }, {
+    "path" : "Pkg6_020215",
+    "default" : true,
+    "package" : "Pkg6_020215",
+    "versionName" : "Pkg6_020215",
+    "versionNumber" : "1.0.0.0",
+    "dependencies" : [ {
+      "package" : "Module_Test",
+      "versionNumber" : "1.0.0.0"
+    } ]
+  }, {
+    "path" : "Module_Test_Dependency",
+    "default" : false,
+    "package" : "Module_Test_Dependency",
+    "versionName" : "Module_Test_Dependency",
+    "versionNumber" : "1.0.0.0",
+    "dependencies" : [ {
+      "package" : "Module_Test",
+      "versionNumber" : "1.0.0.0"
+    } ]
+  }, {
+    "path" : "force-app-1",
+    "default" : false
+  }, {
+    "path" : "force-di-trigger-demo",
+    "default" : false
+  }, {
+    "path" : "force-app-3",
+    "default" : false
+  }, {
     "path" : "force-app-2",
     "default" : false
+  }, {
+    "path" : "force-di",
+    "default" : false,
+    "package" : "force-di",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  }, {
+    "path" : "force-di",
+    "default" : false,
+    "package" : "Test1242",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
   } ],
   "namespace" : "",
   "sfdcLoginUrl" : "https://login.salesforce.com",
@@ -125,6 +135,8 @@
     "Module_Test" : "0Ho7F0000008OSeSAM",
     "Module_Test@1.0.0.0" : "04t7F000005Z9CAQA0",
     "Module_Test_Dependency" : "0Ho7F0000008OSjSAM",
-    "Module_Test_Dependency@1.0.0.0" : "04t7F000005Z9CKQA0"
+    "Module_Test_Dependency@1.0.0.0" : "04t7F000005Z9CKQA0",
+    "Pkg6_020215" : "0Ho7F0000008OSoSAM",
+    "Pkg6_020215@1.0.0.0" : "04t7F000005Z9CPQA0"
   }
 }
